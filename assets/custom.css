@@ -43,6 +43,11 @@
 	margin-bottom: 90px;
 }
 
+.card-image{
+	height: auto;
+	width: 100%;
+}
+
 h1{
 	font-size: 48px;
 	font-family: "Segoe UI";

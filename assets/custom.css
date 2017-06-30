@@ -8,6 +8,23 @@
 	z-index: 100;
 }
 
+.chatbox{
+	width: 450px;
+	height: 450px;
+	background-color: #fff; 
+	position: fixed;
+	top: 15%;
+	left: 65%;
+	z-index: 100;
+}
+
+.float-button{
+	position: fixed;
+	top: 90%;
+	left: 95%;
+	z-index: 100;	
+}
+
 .logo{
 	height: 45px;
 	width: auto;

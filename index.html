@@ -47,7 +47,6 @@
         <h2 style="color: #fff; font-size: 18px; font-weight: 400">SITUS RESMI DESA JAGALAN</h2>
         <br>
         <br>
-        <button class="ui inverted basic red button" onclick="window.location.href='contact.html' ">CONTACT US</button>
         </center>
         
     
@@ -317,17 +316,37 @@
 </div>
  <!-- END: INFORMATION-->
 
+<div class="chatbox">
+  <iframe src="https://www7.cbox.ws/box/?boxid=830577&boxtag=a7dnmk" width="100%" height="450" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+</div>
+
+<div class="float-button">
+  <div class="circular ui blue icon big button">
+    <i class="comments icon"></i>
+  </div>
+</div>
 
 
 
 <!-- Framework's Javascript -->  
+
 <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+ <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="dist/semantic.min.js"></script>
 
-<!-- Custom Javascript -->
-<script type="text/javascript" src="assets/custom.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.chatbox').hide();
+    $('.icon.button').click(function(){
+      $('.chatbox').toggle(1000);
+    });    
+  });
+</script>
 </body>
 </html>

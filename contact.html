@@ -44,13 +44,36 @@
   </div>
 </div>
 <div class="ui container" style="margin-top: 100px;">
-  <div class="ui grid" style="background-color: #fff; padding: 20px">
-    <div class="sixteen wide column">
-	    <h2 class="ui header" style="font-family: 'Segoe UI'; color: #4B4B4D; font-size: 20px; font-weight: 100; margin-bottom: 0px"></h2>
-      <h2 class="ui header" style="font-family: 'Segoe UI'; color: #4B4B4D; margin-top: 5px ">Contact US</h2>
-      <p><h2 style="font-size: 20px; font-weight: 100"><b>
-         Admin
-      </b></h2></p>
+  <div class="ui aligned grid" style="background-color: #fff; padding: 20px">
+    <div class="left floated left aligned eight wide column">
+      <form class="ui form" action="phpmailer/mail.php" method="post">
+        <div class="field"> 
+          <label>Nama</label>
+          <input type="text" name="nama" placeholder="Nama Anda">
+        </div>
+        <div class="field">
+          <label>No Hp</label>
+          <input type="text" name="nomor" placeholder="Nomor telfon yang bisa dihubungi">
+        </div>
+        <div class="fields">
+          <div class="field">
+            <label>Jumlah Orang</label>
+            <input type="text" name="jumlah-orang" placeholder="umlah Orang">
+          </div>
+          <div class="field">
+            <label>Tanggal</label>
+            <input type="text" name="tanggal" placeholder="Tanggal">
+          </div>
+          <div class="field">
+            <label>Jam</label>
+            <input type="text" name="waktu" placeholder="Waktu">
+          </div>
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="right floated left aligned eight wide column" style="padding-left: 70px">
+      <p><h2 style="font-size: 20px; font-weight: 100"><b>Atau</b></h2></p>
       <p><h2 style="font-size: 20px; font-weight: 100"><i class="user icon"></i>Muhammad Fauzan A</h2></p>
       <p><h2 style="font-size: 20px; font-weight: 100"><i class="call square icon"></i>0877-1902-3661</h2></p>
 <p><h2 style="font-size: 20px; font-weight: 100"><i class="mail icon"></i>mfauzan.albaihaqi@gmail.com</h2></p>
